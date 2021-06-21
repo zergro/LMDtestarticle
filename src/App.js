@@ -24,6 +24,7 @@ function App() {
         <img
           className="h-96 w-full bg-cover mx-auto"
           src="/images/frontpage.jpg"
+          alt=""
         />
         <div className="text-center text-sm tracking-wider font-mono">
           En ny bølge vil komme.

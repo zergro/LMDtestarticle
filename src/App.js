@@ -1,24 +1,131 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body className="overflow-y-auto">
+      <div
+        className="h-screen bg-cover"
+        style={{ backgroundImage: 'url("/images/frontpage.jpg")' }}
+      >
+        <div className="h-2/6"></div>
+        <div className="h-4/6 w-4/6">
+          <div className="p-20 space-y-5 text-white">
+            <div className="font-sans tracking-wider font-semibold">GAMBIA</div>
+            <div className="font-serif font-extrabold text-7xl">
+              Stanken av råttent fiske i Gambia
+            </div>
+            <div className="font-sans text-2xl w-4/6">
+              Kina lovet Gambia at kinesiske fiskemelfabrikker ville gi
+              arbeidsplasser og infrastruktur. I stedet tømmer de havet for
+              matfisk for å fôre oppdrettsfisk i Europa og Kina.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="">
+        <div className="w-3/6 mx-auto">
+          <div className="my-4">
+            <figure className="flex bg-gray-100 rounded-xl p-8">
+              <img
+                className="w-32 h-32 rounded-full mx-auto object-cover"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                alt=""
+              />
+              <div className="text-center space-y-4">
+                <blockquote className="px-20">
+                  <p className="text-lg font-semibold">
+                    “Jeg skriver for at du skal kunne oppleve ulikheten som
+                    skjer rundt om i verden.”
+                  </p>
+                </blockquote>
+                <figcaption className="font-medium">
+                  <div className="text-cyan-600">Erling Rognhaugen</div>
+                  <div className="text-gray-500">
+                    Freelancejournalist, Norge
+                  </div>
+                </figcaption>
+              </div>
+            </figure>
+          </div>
+          <div className="leading-relaxed text-2xl tracking-wide">
+            <p>
+              <span className="font-serif text-6xl pr-2">L</span>orem ipsum
+              dolor sit amet, consectetur adipiscing elit. Nam dignissim ligula
+              id leo aliquam semper. Sed tempor elementum diam, eget facilisis
+              arcu eleifend ut. Nullam sit amet nulla vitae mauris aliquam
+              rhoncus eget ut leo. Suspendisse auctor porta ex sit amet
+              vehicula. Quisque pharetra augue a risus sodales interdum. Morbi
+              pharetra tristique urna ut lacinia. Cras lobortis, massa ut porta
+              dapibus, justo orci laoreet leo, non tincidunt neque nunc eget
+              elit. Morbi a purus venenatis, laoreet nisi eget, dictum dui. In
+              hac habitasse platea dictumst. Etiam eleifend tempus tellus, eget
+              bibendum tellus molestie eget. Proin condimentum purus ut dolor
+              ultricies, sit amet ullamcorper nunc efficitur. Aenean quis lacus
+              id urna ullamcorper venenatis a interdum ipsum. Fusce mollis
+              turpis ac leo viverra, a tincidunt metus feugiat.
+            </p>
+            <p>
+              Etiam scelerisque lorem ut ex hendrerit porta. Sed massa ante,
+              elementum et est eget, finibus egestas ex. Duis in venenatis sem.
+              Sed placerat nulla nec felis malesuada, eget porta lacus suscipit.
+              Sed faucibus ex ac consequat vehicula. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Praesent metus ante, vehicula et
+              dapibus et, gravida sit amet sapien. Curabitur porta libero vel ex
+              venenatis, a semper urna semper.
+            </p>
+            <div className="py-4">
+              <img
+                src="/images/articleimage01.jpg"
+                alt=""
+                className="h-96 w-full object-cover"
+              />
+              <div className="text-center text-sm tracking-wider font-mono">
+                En ny bølge vil komme.
+              </div>
+            </div>
+            <p>
+              <span className="text-3xl font-bold">
+                God journalistikk trenger tid og penger.
+              </span>
+              Nunc eget ex ullamcorper, tristique sem ut, aliquam dui. Phasellus
+              ullamcorper dignissim justo, nec convallis erat luctus in. Morbi
+              ut nisi nulla. Suspendisse in sem quis nisi elementum eleifend.
+              Cras tempus eros et eros molestie consequat. Nulla justo lectus,
+              facilisis suscipit tellus non, sagittis rhoncus sem. Proin non
+              mauris purus. Proin sed tincidunt quam. Nullam gravida, turpis
+              quis convallis elementum, magna mauris bibendum lorem, eu interdum
+              elit dolor sit amet nisi.
+            </p>
+            <p>
+              Vivamus cursus sem quis tincidunt placerat. Quisque libero quam,
+              porttitor quis tempor vitae, molestie non arcu. Aenean a congue
+              diam, in facilisis felis. Vestibulum ante ipsum primis in faucibus
+              orci luctus et ultrices posuere cubilia curae; Nulla sed libero a
+              tortor aliquet finibus vitae ac nulla. Aenean aliquet ut purus
+              vitae sodales. Integer auctor lacus quis leo venenatis lacinia.
+              Mauris dignissim dolor nec odio eleifend porta. Duis vehicula
+              aliquam dolor sed viverra. Vestibulum elementum sem non enim
+              suscipit, nec elementum risus congue. Nulla in pellentesque lacus.
+              Sed eu augue aliquet, dapibus nibh eget, venenatis justo. Nam
+              hendrerit nisl sed ante venenatis, at rhoncus felis sodales.
+              Nullam elementum quam eu mauris accumsan consequat ac sit amet
+              ligula. Nullam venenatis lacinia ante in vestibulum.
+            </p>
+            <p>
+              Duis sodales nisl et odio feugiat fringilla. Morbi congue sem non
+              nisi blandit, a elementum mi tristique. Proin imperdiet ultrices
+              turpis sed maximus. Quisque gravida ante dapibus elit hendrerit, a
+              ultrices sapien semper. Morbi vel odio ligula. Morbi ac fermentum
+              nunc, ac imperdiet sem. Pellentesque eu euismod erat, a posuere
+              arcu. Etiam eget enim mi. Donec est libero, laoreet a nunc quis,
+              mattis lacinia urna. Donec et lobortis ligula, id consequat diam.
+              Nulla pellentesque fermentum nulla at dictum. Proin commodo
+              faucibus eros aliquet tincidunt. Phasellus fringilla purus vitae
+              ante tincidunt pharetra.
+            </p>
+          </div>
+        </div>
+        <div className="mt-10 p-5 bg-pink-300">Footer</div>
+      </div>
+    </body>
   );
 }
 

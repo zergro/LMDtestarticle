@@ -1,8 +1,8 @@
 function App() {
   return (
-    <body className="overflow-y-auto">
+    <body className="">
       <div
-        className="h-screen bg-cover"
+        className="2xl:block hidden h-screen bg-cover"
         style={{ backgroundImage: 'url("/images/frontpage.jpg")' }}
       >
         <div className="h-2/6"></div>
@@ -20,27 +20,49 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="2xl:hidden block mx-auto p-20">
+        <img
+          className="h-96 w-full bg-cover mx-auto"
+          src="/images/frontpage.jpg"
+        />
+        <div className="text-center text-sm tracking-wider font-mono">
+          En ny bølge vil komme.
+        </div>
+        <div className="mt-20">
+          <div className="font-sans tracking-wider font-semibold text-center">
+            NORGE
+          </div>
+          <div className="font-serif font-extrabold text-7xl text-center mb-10">
+            Vi trenger alle god journalistikk
+          </div>
+          <div className="font-sans text-2xl">
+            Norge blir rangert som et av verdens beste land å bo i, så hvorfor
+            gjør vi ikke mer for at andre skal få det bedre? Eksport av en
+            journalistikkplattform kan være svaret.
+          </div>
+        </div>
+      </div>
       <div className="">
-        <div className="w-3/6 mx-auto">
+        <div className="lg:w-3/6 w-5/6 mx-auto">
           <div className="my-4">
-            <figure className="flex bg-gray-100 rounded-xl p-8">
+            <figure class="md:flex bg-gray-100 rounded-xl p-8">
               <img
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                class="w-32 h-32 rounded-full mx-auto"
                 src="/images/erling.jpg"
                 alt=""
+                width="384"
+                height="512"
               />
-              <div className="text-center space-y-4">
-                <blockquote className="px-20">
-                  <p className="text-lg font-semibold">
-                    “Jeg skriver for at du skal kunne oppleve ulikheten som
+              <div class="md:px-8 text-center md:text-left space-y-4">
+                <blockquote>
+                  <p class="text-lg font-semibold">
+                    “Jeg skriver for at du skal kunne oppleve ulikhetene som
                     skjer rundt om i verden.”
                   </p>
                 </blockquote>
-                <figcaption className="font-medium">
-                  <div className="text-cyan-600">Erling Rognhaugen</div>
-                  <div className="text-gray-500">
-                    Freelancejournalist, Norge
-                  </div>
+                <figcaption class="font-medium">
+                  <div class="text-cyan-600">Erling Rognhaugen</div>
+                  <div class="text-gray-500"> Freelancejournalist, Norge</div>
                 </figcaption>
               </div>
             </figure>
@@ -123,7 +145,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="mt-10 p-5 bg-pink-300">Footer</div>
+        <div className="mt-20 p-5 bg-white"></div>
       </div>
     </body>
   );

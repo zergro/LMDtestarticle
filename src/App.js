@@ -8,14 +8,14 @@ function App() {
         <div className="h-2/6"></div>
         <div className="h-4/6 w-4/6">
           <div className="p-20 space-y-5 text-white">
-            <div className="font-sans tracking-wider font-semibold">GAMBIA</div>
+            <div className="font-sans tracking-wider font-semibold">NORGE</div>
             <div className="font-serif font-extrabold text-7xl">
-              Stanken av råttent fiske i Gambia
+              Vi trenger alle god journalistikk
             </div>
             <div className="font-sans text-2xl w-4/6">
-              Kina lovet Gambia at kinesiske fiskemelfabrikker ville gi
-              arbeidsplasser og infrastruktur. I stedet tømmer de havet for
-              matfisk for å fôre oppdrettsfisk i Europa og Kina.
+              Norge blir rangert som et av verdens beste land å bo i, så hvorfor
+              gjør vi ikke mer for at andre skal få det bedre? Eksport av en
+              journalistikkplattform kan være svaret.
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ function App() {
             <figure className="flex bg-gray-100 rounded-xl p-8">
               <img
                 className="w-32 h-32 rounded-full mx-auto object-cover"
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                src="/images/erling.jpg"
                 alt=""
               />
               <div className="text-center space-y-4">
@@ -46,7 +46,7 @@ function App() {
             </figure>
           </div>
           <div className="leading-relaxed text-2xl tracking-wide">
-            <p>
+            <div className="mb-10">
               <span className="font-serif text-6xl pr-2">L</span>orem ipsum
               dolor sit amet, consectetur adipiscing elit. Nam dignissim ligula
               id leo aliquam semper. Sed tempor elementum diam, eget facilisis
@@ -61,8 +61,8 @@ function App() {
               ultricies, sit amet ullamcorper nunc efficitur. Aenean quis lacus
               id urna ullamcorper venenatis a interdum ipsum. Fusce mollis
               turpis ac leo viverra, a tincidunt metus feugiat.
-            </p>
-            <p>
+            </div>
+            <div className="mb-10">
               Etiam scelerisque lorem ut ex hendrerit porta. Sed massa ante,
               elementum et est eget, finibus egestas ex. Duis in venenatis sem.
               Sed placerat nulla nec felis malesuada, eget porta lacus suscipit.
@@ -70,7 +70,7 @@ function App() {
               consectetur adipiscing elit. Praesent metus ante, vehicula et
               dapibus et, gravida sit amet sapien. Curabitur porta libero vel ex
               venenatis, a semper urna semper.
-            </p>
+            </div>
             <div className="py-4">
               <img
                 src="/images/articleimage01.jpg"
@@ -81,10 +81,10 @@ function App() {
                 En ny bølge vil komme.
               </div>
             </div>
-            <p>
-              <span className="text-3xl font-bold">
-                God journalistikk trenger tid og penger.
-              </span>
+            <div className="text-3xl font-bold mb-3">
+              God journalistikk trenger tid og penger.
+            </div>
+            <div className="mb-10">
               Nunc eget ex ullamcorper, tristique sem ut, aliquam dui. Phasellus
               ullamcorper dignissim justo, nec convallis erat luctus in. Morbi
               ut nisi nulla. Suspendisse in sem quis nisi elementum eleifend.
@@ -93,8 +93,8 @@ function App() {
               mauris purus. Proin sed tincidunt quam. Nullam gravida, turpis
               quis convallis elementum, magna mauris bibendum lorem, eu interdum
               elit dolor sit amet nisi.
-            </p>
-            <p>
+            </div>
+            <div className="mb-10">
               Vivamus cursus sem quis tincidunt placerat. Quisque libero quam,
               porttitor quis tempor vitae, molestie non arcu. Aenean a congue
               diam, in facilisis felis. Vestibulum ante ipsum primis in faucibus
@@ -108,8 +108,8 @@ function App() {
               hendrerit nisl sed ante venenatis, at rhoncus felis sodales.
               Nullam elementum quam eu mauris accumsan consequat ac sit amet
               ligula. Nullam venenatis lacinia ante in vestibulum.
-            </p>
-            <p>
+            </div>
+            <div className="mb-10">
               Duis sodales nisl et odio feugiat fringilla. Morbi congue sem non
               nisi blandit, a elementum mi tristique. Proin imperdiet ultrices
               turpis sed maximus. Quisque gravida ante dapibus elit hendrerit, a
@@ -120,7 +120,7 @@ function App() {
               Nulla pellentesque fermentum nulla at dictum. Proin commodo
               faucibus eros aliquet tincidunt. Phasellus fringilla purus vitae
               ante tincidunt pharetra.
-            </p>
+            </div>
           </div>
         </div>
         <div className="mt-10 p-5 bg-pink-300">Footer</div>
